@@ -1,0 +1,179 @@
+{
+  "app": {
+    "[project]/Desktop/Hackathon/website/app/[locale]/categories/[id]/edit/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/categories/create/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/categories/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/companies/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/connection-requests/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/connections/[id]/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/connections/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/dashboard/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/event-requests/[id]/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/event-requests/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/events/[id]/edit/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/events/[id]/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/events/create/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/events/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/job-applications/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/jobs/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/login/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/logs/[id]/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/logs/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/notifications/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/profile/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/profiles/[id]/edit/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/profiles/[id]/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/profiles/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/reports/[id]/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/reports/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/skills/[id]/edit/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/skills/create/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/skills/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/telegram/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/users/[id]/edit/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/users/[id]/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/[locale]/users/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/_not-found/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/company/[locale]/applications/[id]/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/company/[locale]/applications/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/company/[locale]/dashboard/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/company/[locale]/jobs/create/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/company/[locale]/jobs/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/company/[locale]/login/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/company/[locale]/profile/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ],
+    "[project]/Desktop/Hackathon/website/app/company/[locale]/register/page": [
+      "static/media/caa3a2e1cccd8315-s.p.3b6cae6d.woff2",
+      "static/media/797e433ab948586e-s.p.29207c2f.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

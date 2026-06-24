@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,86708,e=>{"use strict";var t=e.i(28529),i=e.i(24877);function n({children:e}){let n=(0,i.usePathname)();return(0,t.jsx)("div",{className:"dc-page-enter min-h-0 flex-1",children:e},n)}e.s(["PageTransition",()=>n])}]);

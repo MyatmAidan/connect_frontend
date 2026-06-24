@@ -1,0 +1,11 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__148e692c._.js")
+R.c("server/chunks/ssr/Desktop_Hackathon_website_515f681a._.js")
+R.c("server/chunks/ssr/6e527_next_dist_d534a74f._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1c23195e._.js")
+R.c("server/chunks/ssr/6e527_8027fcf8._.js")
+R.c("server/chunks/ssr/6e527_next_dist_aae4f200._.js")
+R.c("server/chunks/ssr/Desktop_Hackathon_website_app_3c864859._.js")
+R.c("server/chunks/ssr/3d860_Hackathon_website__next-internal_server_app__global-error_page_actions_8e366f05.js")
+R.m(85458)
+module.exports=R.m(85458).exports

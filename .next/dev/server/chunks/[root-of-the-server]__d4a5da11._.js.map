@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///Users/htetmyatthu/Desktop/Hackathon/website/app/api/auth/logout/route.ts"],"sourcesContent":["import { cookies } from \"next/headers\";\nimport { NextResponse } from \"next/server\";\n\nexport async function POST() {\n  const cookieStore = await cookies();\n  cookieStore.delete(\"authToken\");\n  return NextResponse.json({ success: true });\n}\n"],"names":[],"mappings":";;;;AAAA;AACA;;;AAEO,eAAe;IACpB,MAAM,cAAc,MAAM,IAAA,+KAAO;IACjC,YAAY,MAAM,CAAC;IACnB,OAAO,mLAAY,CAAC,IAAI,CAAC;QAAE,SAAS;IAAK;AAC3C"}}]
+}

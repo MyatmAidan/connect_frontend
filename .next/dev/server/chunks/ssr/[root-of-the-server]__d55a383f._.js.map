@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":["file:///Users/htetmyatthu/Desktop/Hackathon/website/app/%5Blocale%5D/page.tsx"],"sourcesContent":["import { redirect } from \"next/navigation\";\n\nexport default async function LocaleHomePage({\n  params,\n}: {\n  params: Promise<{ locale: string }>;\n}) {\n  const { locale } = await params;\n  redirect(`/${locale}/dashboard`);\n}\n"],"names":[],"mappings":";;;;AAAA;AAAA;;AAEe,eAAe,eAAe,EAC3C,MAAM,EAGP;IACC,MAAM,EAAE,MAAM,EAAE,GAAG,MAAM;IACzB,IAAA,oOAAQ,EAAC,CAAC,CAAC,EAAE,OAAO,UAAU,CAAC;AACjC"}}]
+}
