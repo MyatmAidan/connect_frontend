@@ -31,9 +31,10 @@ export async function updateApplicationStatusApi(
   return body.data;
 }
 
-export async function sendInterviewAcknowledgmentApi(id: string) {
+export async function sendInterviewAcknowledgmentApi(id: string, message?: string) {
   const result = await companyApi.post<ApiSuccessResponse<JobApplication>>(
     `/job-applications/${id}/interview-ack`,
+    message ? { message } : undefined,
   );
   const body = result as unknown as ApiSuccessResponse<JobApplication>;
   return body.data;

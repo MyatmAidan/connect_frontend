@@ -542,6 +542,8 @@
       "published": "ထုတ်ပြန်ပြီးပါပြီ",
       "close": "ပိတ်ရန်",
       "closed": "ပိတ်ပြီးပါပြီ",
+      "reopen": "ပြန်ဖွင့်ရန်",
+      "reopened": "အလုပ်ကြော်ငြာ ပြန်ဖွင့်ပြီးပါပြီ",
       "deleted": "ဖျက်ပြီးပါပြီ",
       "actionFailed": "လုပ်ဆောင်မှု မအောင်မြင်ပါ"
     },
@@ -560,6 +562,7 @@
       "telegramNotLinked": "မချိတ်ဆက်ရသေးပါ",
       "telegramRequired": "ဤမက်ဆေ့ချ်ပို့ရန် လျှောက်ထားသူက Telegram ချိတ်ဆက်ထားရပါမည်။",
       "interviewAckTitle": "အင်တာဗျူး အသိပေးချက်",
+      "interviewAckHint": "လျှောက်ထားသူထံ ပို့မည့် Telegram မက်ဆေ့ချ်ကို ပြင်ဆင်နိုင်ပါသည်။",
       "interviewAckMessage": "Thank you for your Cv.I will contact you again if you are selected for an interview.",
       "interviewAckPreview": "Telegram မှတဆင့် ပို့ပေးမည် — \"{{message}}\"",
       "sendInterviewAck": "Telegram မှတဆင့် အသိပေးချက် ပို့ရန်",

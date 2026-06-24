@@ -47,6 +47,12 @@ export async function closeCompanyJobApi(id: string) {
   return body.data;
 }
 
+export async function reopenCompanyJobApi(id: string) {
+  const result = await companyApi.post<ApiSuccessResponse<JobPosting>>(`/jobs/${id}/reopen`);
+  const body = result as unknown as ApiSuccessResponse<JobPosting>;
+  return body.data;
+}
+
 export async function deleteCompanyJobApi(id: string) {
   await companyApi.delete(`/jobs/${id}`);
 }

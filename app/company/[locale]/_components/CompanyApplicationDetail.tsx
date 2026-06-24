@@ -20,11 +20,17 @@ import { useParams } from "next/navigation";
 export function CompanyApplicationDetail({ id }: { id: string }) {
   const { locale } = useParams<{ locale: string }>();
   const { t } = useTranslation();
+  const defaultAckMessage = t("company.applications.interviewAckMessage");
   const [application, setApplication] = useState<JobApplication | null>(null);
   const [notes, setNotes] = useState("");
+  const [ackMessage, setAckMessage] = useState("");
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [sendingAck, setSendingAck] = useState(false);
+
+  useEffect(() => {
+    setAckMessage(defaultAckMessage);
+  }, [defaultAckMessage]);
 
   useEffect(() => {
     void getCompanyApplicationApi(id)
@@ -51,7 +57,7 @@ export function CompanyApplicationDetail({ id }: { id: string }) {
   const sendInterviewAck = async () => {
     setSendingAck(true);
     try {
-      const updated = await sendInterviewAcknowledgmentApi(id);
+      const updated = await sendInterviewAcknowledgmentApi(id, ackMessage.trim());
       setApplication(updated);
       toast.success(t("company.applications.ackSent"));
     } catch {
@@ -105,12 +111,21 @@ export function CompanyApplicationDetail({ id }: { id: string }) {
           <div className="rounded-lg border bg-muted/40 p-4 space-y-3">
             <p className="font-medium">{t("company.applications.interviewAckTitle")}</p>
             <p className="text-muted-foreground text-xs">
+              {t("company.applications.interviewAckHint")}
+            </p>
+            <Textarea
+              value={ackMessage}
+              onChange={(e) => setAckMessage(e.target.value)}
+              disabled={ackSent}
+              rows={4}
+            />
+            <p className="text-muted-foreground text-xs">
               {t("company.applications.interviewAckPreview", {
-                message: t("company.applications.interviewAckMessage"),
+                message: ackMessage.trim() || defaultAckMessage,
               })}
             </p>
             <Button
-              disabled={sendingAck || ackSent || !telegramLinked}
+              disabled={sendingAck || ackSent || !telegramLinked || !ackMessage.trim()}
               onClick={() => void sendInterviewAck()}
             >
               {ackSent

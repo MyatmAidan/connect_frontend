@@ -104,7 +104,7 @@ export function PortalLoginForm({
             className="flex flex-col gap-4"
           >
             <div className="flex flex-col items-center gap-3 text-center">
-              <BrandLogo className="h-12 max-w-full" />
+              <BrandLogo className="h-14 w-auto max-w-full" />
               <div>
                 <h1 className="text-2xl font-semibold tracking-tight">
                   {t("auth.welcome")}

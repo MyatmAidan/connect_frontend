@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { BrandIcon, BrandTitle } from "@/components/brand/brand-mark";
+import { BrandWordmark } from "@/components/brand/brand-mark";
 import {
   SidebarMenu,
   SidebarMenuButton,
@@ -33,12 +33,14 @@ export function SidebarBrand() {
           )}
         >
           {collapsed ? (
-            <BrandIcon size={40} alt={BRAND_NAME} className="size-10" />
+            <BrandWordmark
+              alt={BRAND_NAME}
+              className="h-10 w-10 shrink-0 object-cover object-left"
+            />
           ) : (
-            <BrandTitle
-              iconSize={40}
-              iconClassName="size-10"
-              textClassName="text-lg"
+            <BrandWordmark
+              alt={BRAND_NAME}
+              className="h-9 w-auto max-w-[200px]"
             />
           )}
         </SidebarMenuButton>

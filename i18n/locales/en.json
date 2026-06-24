@@ -542,6 +542,8 @@
       "published": "Job published",
       "close": "Close",
       "closed": "Job closed",
+      "reopen": "Reopen",
+      "reopened": "Job reopened",
       "deleted": "Job deleted",
       "actionFailed": "Action failed"
     },
@@ -560,6 +562,7 @@
       "telegramNotLinked": "Not connected",
       "telegramRequired": "Applicant must connect Telegram before you can send this message.",
       "interviewAckTitle": "Interview acknowledgment",
+      "interviewAckHint": "Edit the Telegram message before sending it to the applicant.",
       "interviewAckMessage": "Thank you for your Cv.I will contact you again if you are selected for an interview.",
       "interviewAckPreview": "Sends via Telegram: \"{{message}}\"",
       "sendInterviewAck": "Send acknowledgment via Telegram",

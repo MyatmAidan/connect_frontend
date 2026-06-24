@@ -12,6 +12,7 @@ import {
   deleteCompanyJobApi,
   getCompanyJobsApi,
   publishCompanyJobApi,
+  reopenCompanyJobApi,
 } from "@/api/company-jobs";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -52,6 +53,16 @@ export function CompanyJobsList() {
     try {
       await closeCompanyJobApi(job.id);
       toast.success(t("company.jobs.closed"));
+      setRefreshTrigger((n) => n + 1);
+    } catch {
+      toast.error(t("company.jobs.actionFailed"));
+    }
+  }, [t]);
+
+  const handleReopen = useCallback(async (job: JobPosting) => {
+    try {
+      await reopenCompanyJobApi(job.id);
+      toast.success(t("company.jobs.reopened"));
       setRefreshTrigger((n) => n + 1);
     } catch {
       toast.error(t("company.jobs.actionFailed"));
@@ -129,6 +140,11 @@ export function CompanyJobsList() {
                 {t("company.jobs.close")}
               </Button>
             ) : null}
+            {row.original.status === "closed" ? (
+              <Button size="sm" variant="outline" onClick={() => void handleReopen(row.original)}>
+                {t("company.jobs.reopen")}
+              </Button>
+            ) : null}
             <Button size="sm" variant="destructive" onClick={() => void handleDelete(row.original)}>
               {t("common.delete")}
             </Button>
@@ -136,7 +152,7 @@ export function CompanyJobsList() {
         ),
       },
     ],
-    [t, handlePublish, handleClose, handleDelete],
+    [t, handlePublish, handleClose, handleReopen, handleDelete],
   );
 
   return (

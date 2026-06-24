@@ -1,4 +1,4 @@
-import { BrandIcon } from "@/components/brand/brand-mark";
+import { BRAND_SIDEBAR_WATERMARK_SRC } from "@/lib/brand";
 
 export function SidebarWatermark() {
   return (
@@ -6,9 +6,12 @@ export function SidebarWatermark() {
       aria-hidden
       className="pointer-events-none absolute inset-0 overflow-hidden group-data-[collapsible=icon]:hidden"
     >
-      <BrandIcon
-        size={200}
-        className="absolute right-8 bottom-24 size-[min(56%,200px)] max-w-none select-none opacity-[0.07] dark:opacity-[0.05]"
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={BRAND_SIDEBAR_WATERMARK_SRC}
+        alt=""
+        className="absolute -right-6 bottom-10 h-auto w-[min(72%,320px)] max-w-none select-none object-contain object-center opacity-[0.14] dark:opacity-[0.11]"
+        draggable={false}
       />
     </div>
   );
