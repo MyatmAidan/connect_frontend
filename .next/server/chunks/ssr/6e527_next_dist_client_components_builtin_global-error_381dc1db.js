@@ -1,3 +1,0 @@
-module.exports=[29435,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(31347);a.n(d("[project]/Desktop/Hackathon/website/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},17450,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(31347);a.n(d("[project]/Desktop/Hackathon/website/node_modules/next/dist/client/components/builtin/global-error.js"))},5829,a=>{"use strict";a.i(29435);var b=a.i(17450);a.n(b)}];
-
-//# sourceMappingURL=6e527_next_dist_client_components_builtin_global-error_381dc1db.js.map

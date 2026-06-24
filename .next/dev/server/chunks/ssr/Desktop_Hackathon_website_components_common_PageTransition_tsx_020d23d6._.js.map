@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/htetmyatthu/Desktop/Hackathon/website/components/common/PageTransition.tsx"],"sourcesContent":["\"use client\";\n\nimport { usePathname } from \"next/navigation\";\n\nexport function PageTransition({ children }: { children: React.ReactNode }) {\n  const pathname = usePathname();\n\n  return (\n    <div key={pathname} className=\"dc-page-enter min-h-0 flex-1\">\n      {children}\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIO,SAAS,eAAe,EAAE,QAAQ,EAAiC;IACxE,MAAM,WAAW,IAAA,oLAAW;IAE5B,qBACE,iRAAC;QAAmB,WAAU;kBAC3B;OADO;;;;;AAId"}}]
-}
